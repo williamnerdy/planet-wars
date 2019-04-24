@@ -1,6 +1,7 @@
 {
   "name": "planet-wars",
   "version": "0.1.0",
+  "homepage": "https://williamnerdy.github.io/planet-wars",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
