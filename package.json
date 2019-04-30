@@ -43,6 +43,8 @@
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.16.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
     "husky": "^2.0.0",
     "lint-staged": "^8.1.5",
     "prettier": "^1.17.0"
