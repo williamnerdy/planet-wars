@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'STARWARS';
-  src: url('./fonts/STARWARS.eot?') format('eot'),
-    url('./fonts/STARWARS.woff') format('woff'),
-    url('./fonts/STARWARS.ttf') format('truetype'),
-    url('./fonts/STARWARS.svg#STARWARS') format('svg');
+  src: url('./assets/fonts/STARWARS.eot?') format('eot'),
+    url('./assets/fonts/STARWARS.woff') format('woff'),
+    url('./assets/fonts/STARWARS.ttf') format('truetype'),
+    url('./assets/fonts/STARWARS.svg#STARWARS') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,6 +35,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  cursor: url('../images/lightsaber.png'), auto;
+  cursor: url('./assets/images/lightsaber.png'), auto;
   background-color: #fff;
 }
