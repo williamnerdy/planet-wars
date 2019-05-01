@@ -20,4 +20,9 @@ describe('<Button />', () => {
     element.find('.button').simulate('click');
     expect(mockCallBack).toHaveBeenCalled();
   });
+
+  it('should have prop disabled', () => {
+    const element = shallow(<Button disabled>Test</Button>);
+    expect(element.find('.button').prop('disabled')).toBe(true);
+  });
 });
