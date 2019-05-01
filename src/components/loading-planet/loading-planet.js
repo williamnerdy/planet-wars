@@ -2,10 +2,10 @@ import React from 'react';
 import './style.css';
 
 const LoadingPlanet = () => (
-  <div className="loading-planet-wrapper">
-    <div className="loading-planet">
-      <div />
-      <div />
+  <div className="loading-planet">
+    <div class="spinner">
+      <div class="dot1" />
+      <div class="dot2" />
     </div>
   </div>
 );
