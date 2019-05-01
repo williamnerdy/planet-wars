@@ -4,6 +4,7 @@ import Game from '../components/game';
 import LoadingGame from '../components/loading-game';
 import { Planets } from '../swapi';
 import { shuffle } from '../utils';
+import Sound from '../assets/sounds/imperial-march.mp3';
 import './style.css';
 
 function App() {
@@ -30,6 +31,12 @@ function App() {
         {planetsId.length ? <Game planetsId={planetsId} /> : <LoadingGame />}
       </div>
       <Background />
+      <iframe
+        src={Sound}
+        allow="autoplay"
+        title="Sound"
+        style={{ display: 'none' }}
+      />
     </>
   );
 }
