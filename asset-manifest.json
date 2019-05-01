@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/planet-wars/static/css/main.fdeabf04.chunk.css",
+    "main.js": "/planet-wars/static/js/main.51d12354.chunk.js",
+    "main.js.map": "/planet-wars/static/js/main.51d12354.chunk.js.map",
+    "runtime~main.js": "/planet-wars/static/js/runtime~main.d7f6cf48.js",
+    "runtime~main.js.map": "/planet-wars/static/js/runtime~main.d7f6cf48.js.map",
+    "static/js/2.b872d004.chunk.js": "/planet-wars/static/js/2.b872d004.chunk.js",
+    "static/js/2.b872d004.chunk.js.map": "/planet-wars/static/js/2.b872d004.chunk.js.map",
+    "index.html": "/planet-wars/index.html",
+    "precache-manifest.4ee66dc323507fc045efd7241dba93b8.js": "/planet-wars/precache-manifest.4ee66dc323507fc045efd7241dba93b8.js",
+    "service-worker.js": "/planet-wars/service-worker.js",
+    "static/css/main.fdeabf04.chunk.css.map": "/planet-wars/static/css/main.fdeabf04.chunk.css.map",
+    "static/media/index.css": "/planet-wars/static/media/STARWARS.fa7a31d2.eot",
+    "static/media/style.css": "/planet-wars/static/media/stars.6494ab5b.png",
+    "static/media/imperial-march.mp3": "/planet-wars/static/media/imperial-march.d68ba016.mp3"
+  }
+}
