@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlipCard /> should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`<FlipCard /> should render correctly with "Hello World!" on back 1`] = `ShallowWrapper {}`;
+
+exports[`<FlipCard /> should render correctly with "Hello World!" on front 1`] = `ShallowWrapper {}`;
