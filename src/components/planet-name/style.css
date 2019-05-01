@@ -1,0 +1,8 @@
+.planet-name {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'STARWARS';
+  border-bottom: #f4ff00 3px solid;
+}
