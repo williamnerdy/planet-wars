@@ -1,56 +1,39 @@
-.background {
-  z-index: 0;
+.flip-card {
+  background-color: transparent;
+  width: 275px;
+  height: 300px;
+  perspective: 1000px;
 }
 
-.background,
-.stars,
-.twinkling,
-.clouds {
-  display: block;
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.show-back .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  backface-visibility: hidden;
+  border: #f4ff00 3px solid;
+  color: #fff;
 }
 
-.stars {
-  z-index: 1;
-  background: #000 url('../../assets/images/stars.png') repeat top center;
-}
-
-.twinkling {
+.flip-card-front {
   z-index: 2;
-  background: transparent url('../../assets/images/twinkling.png') repeat top
-    center;
-  animation: move-twink-back 200s linear infinite;
+  transform: rotateY(0deg);
 }
 
-.clouds {
-  z-index: 3;
-  background: transparent url('../../assets/images/clouds.png') repeat top
-    center;
-  animation: move-clouds-back 200s linear infinite;
-}
-
-@keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-
-@keyframes move-clouds-back {
-  from {
-    background-position: 0 0;
-  }
-
-  to {
-    background-position: 10000px 0;
-  }
+.flip-card-back {
+  transform: rotateY(180deg);
 }
